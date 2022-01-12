@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập 3</title>
+</head>
+<body>
+<script>
+    let x = "<table>";
+    for (let i = 0; i < 5; i++) {
+        x += "<tr>";
+        for (let j = 0; j < i; j++) {
+            x+= "<td>*</td>";
+        } x+="</tr>"
+    } x += "</table>"
+    document.write(x)
+    let x1 = "<table>";
+    for (let i = 0; i < 5; i++) {
+        x1 += "<tr>";
+        for (let j = i; j < 5; j++) {
+            x1+= "<td>*</td>";
+        } x1+="</tr>"
+    } x1 += "</table>"
+    document.write(x1)
+    let x2 = "<table>";
+    for (let i = 0; i < 5; i++) {
+        x2 += "<tr>";
+        for (let j = i; j < 5; j++) {
+            x2+= "<td>*</td>";
+        } x2+="</tr>"
+    } x2 += "</table>"
+    document.write(x2)
+
+</script>
+</body>
+</html>
